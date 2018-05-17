@@ -1,0 +1,2 @@
+[15-Apr-2017 00:43:43 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home/cgrbiot/public_html/wp-content/themes/theme-cgr/404.php on line 1
+[06-Apr-2018 05:41:42 America/Chicago] PHP Fatal error:  Call to undefined function get_template_part() in /home/cgrbiot/public_html/wp-content/themes/theme-cgr/404.php on line 1
