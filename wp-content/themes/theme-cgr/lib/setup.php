@@ -99,6 +99,7 @@ function assets() {
     wp_enqueue_style('slick-theme/css', ('https://unpkg.com/slick-carousel@1.7.1/slick/slick-theme.css'), false, null);
     wp_enqueue_style('bootrapp/css', ('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'), false, null);
     wp_enqueue_style('sage/css', Assets\asset_path('styles/style.css'), false, null);
+    wp_enqueue_style('themplate/css', Assets\asset_path('styles/general.css'), false, null);
     wp_enqueue_style('normalize/css', Assets\asset_path('styles/normalize.css'), false, null);
     wp_enqueue_style('fonts-one', ('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700'), false, null);
     wp_enqueue_style('fonts-two', ('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700'), false, null);

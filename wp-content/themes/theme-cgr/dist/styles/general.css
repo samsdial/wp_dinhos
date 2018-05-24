@@ -1,0 +1,183 @@
+/*--
+colores Web
+red: #DE030E
+darkred: darkred
+black: black
+--*/
+
+/* --
+- Modificadores
+-- */
+/*background-color*/
+.bgc--black{
+    background-color: black;
+}
+/*selctores Generales*/
+.full{}
+.title{}
+.subtitle{}
+/* Box pgweb*/
+.box_intro{}
+.box_intro--height{
+    height: 55vh;
+}
+.box_intro--img{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+/* Selectores Tablet template*/
+.breadcrumb{
+    border-radius: 0;
+}
+/*first Table next match -- template*/
+.next_match{
+}
+.after_match .sportspress .sp-template .sp-table-wrapper table.sp-event-blocks,
+.next_match .sportspress .sp-template .sp-table-wrapper table.sp-event-blocks{
+    background: transparent;
+    border: 0px solid transparent;
+}
+.after_match .sportspress .sp-template .sp-table-wrapper table.sp-event-blocks.sp-data-table td,
+.next_match .sportspress .sp-template .sp-table-wrapper table.sp-event-blocks.sp-data-table td{
+    border: 0px solid transparent;
+}
+.after_match .sportspress .sp-template .sp-table-wrapper table.sp-event-blocks .team-logo,
+.next_match .sportspress .sp-template .sp-table-wrapper table.sp-event-blocks .team-logo{
+    background: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 7px solid #DE030E;
+    width: 10em;
+    height: 6em;
+    max-height: 8em;
+}
+
+.next_match .sp-template-event-blocks .sp-event-results a{
+    background-color: rgba(0,0,0,.5);
+    color: #DE030E;
+    padding: 0px 12px;
+}
+.next_match .sp-template-event-blocks .sp-event-results a > span.sp-result{
+    color: white;
+}
+/**/
+.after_match .sp-template-event-blocks .sp-event-date,
+.next_match .sp-template-event-blocks .sp-event-date{
+    margin-bottom: 17px;
+}
+.next_match .sp-template .sp-event-title a, .next_match .sp-data-table .sp-event-title a{
+    color: white;
+    text-decoration: underline;
+}
+.next_match .sportspress .sp-template .sp-table-wrapper {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,30,0,1) 51%, rgba(255,30,0,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(51%, rgba(255,30,0,1)), color-stop(100%, rgba(255,30,0,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,30,0,1) 51%, rgba(255,30,0,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,30,0,1) 51%, rgba(255,30,0,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,30,0,1) 51%, rgba(255,30,0,1) 100%);
+    background: linear-gradient(187deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,30,0,1) 51%, rgba(255,30,0,1) 100%);
+    -webkit-box-shadow: 0px 7px 13px -2px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 7px 13px -2px rgba(0,0,0,0.39);
+    box-shadow: 0px 7px 13px -2px rgba(0,0,0,0.39);
+}
+.after_match .sportspress .sp-template .sp-table-wrapper{
+    background: black;
+}
+.after_match .sp-data-table tbody a {
+    color: white;
+    vertical-align: middle;
+}
+.after_match .sp-data-table tbody a:hover{
+    color: darkred;
+}
+
+.after_match .sp-data-table tbody a span.sp-result {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.1em;
+}
+.table_league{}
+.table_league .sp-table-caption{
+    border: 0px solid transparent;
+    background: #DE030E;
+    color: white;
+    padding: 1.2rem;
+    font-weight: 1.2;
+}
+.table_league .sp-table-caption:before{
+    content: "\e917";    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 3rem;
+    margin-right: 12px;
+}
+.table_league .sp-data-table th{
+    background: lightgray;
+    color: slategray;
+}
+.table_league.ranking1 .sp-data-table tr:nth-child(1) td,
+.table_league.ranking2 .sp-data-table tr:nth-child(2) td,
+.table_league.ranking3 .sp-data-table tr:nth-child(3) td,
+.table_league.ranking4 .sp-data-table tr:nth-child(4) td,
+.table_league.ranking5 .sp-data-table tr:nth-child(5) td,
+.table_league.ranking6 .sp-data-table tr:nth-child(6) td,
+.table_league.ranking7 .sp-data-table tr:nth-child(7) td,
+.table_league.ranking8 .sp-data-table tr:nth-child(8) td,
+.table_league.ranking9 .sp-data-table tr:nth-child(9) td,
+.table_league.ranking10 .sp-data-table tr:nth-child(10) td{
+    background: #DE030E;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    border: 0px solid transparent;
+}
+span.circle.card {
+    width: 3.5rem;
+    height: 3.5rem;
+    color: white;
+    padding: 0.8rem;
+    vertical-align: middle;
+    line-height: 0.6;
+    float: right;
+    transition:all 0.5s ease;
+}
+.card-header{
+    position: relative;
+}
+.title > span.icon{
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    transition:all 0.5s ease;
+}
+button[aria-expanded="true"] + .title > span.circle{
+    background: darkred;
+}
+button[aria-expanded="true"] + .title > span.icon{
+    display: inline-block;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+/**/
+.card-body .sp-template-event-blocks .sp-event-title a{
+    color: #DE030E;
+}
+.card-body .sp-template-event-blocks .sp-event-title a:hover{
+    color: darkred;
+}
