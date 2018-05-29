@@ -110,7 +110,7 @@ black: black
     background: #DE030E;
     color: white;
     padding: 1.2rem;
-    font-weight: 1.2;
+    font-weight: 400;
 }
 .table_league .sp-table-caption:before{
     content: "\e917";    font-family: 'icomoon' !important;
@@ -181,3 +181,87 @@ button[aria-expanded="true"] + .title > span.icon{
 .card-body .sp-template-event-blocks .sp-event-title a:hover{
     color: darkred;
 }
+/*Contente envent*/
+.content_event .sp-team-name {
+    font-size: 27px;
+    color: #DE030E;
+}
+.content_event .sp-section-content .sp-table-caption{
+    background-color: #DE030E;
+    color: white;
+}
+.sp-table-wrapper table.sp-scrollable-table thead tr th{
+    background: lightgray;
+    color: slategray;
+}
+
+.content_event .sp-section-content-results table.sp-scrollable-table thead{
+    display: none;
+}
+.content_event .sp-section-content-results table.sp-scrollable-table tbody tr{
+    display: inline-block;
+    width: 50%;
+}
+.content_event .sp-section-content-results table.sp-scrollable-table tbody tr td{
+    display: block;
+    font-size: 17px;
+    border: 0px;
+}
+.content_event .sp-section-content-results table.sp-scrollable-table tbody tr td.data-name{
+    color: #DE030E;
+    text-align: center;
+}
+.content_event .sp-section-content-results table.sp-scrollable-table tbody tr td.data-goals{
+    background-color: black;
+    color: white;
+}
+/*Columns intro de Envents*/
+.content_event .sp-section-content-video,
+.content_event .sp-section-content-content,
+.content_event .sp-section-content-venue,
+.content_event .sp-section-content-details,
+.content_event .sp-section-content-results,
+.content_event .sp-section-content-logos{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.content_event .sp-section-content-content{
+    margin-bottom: 25px;
+}
+.content_event .sp-section-content-video,
+.content_event .sp-section-content-venue{
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+}
+.content_event .sp-section-content-video,
+.content_event .sp-section-content-venue,
+.content_event .sp-section-content-logos{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+@media (min-width: 0px){
+    .content_event .sp-section-content-details,
+    .content_event .sp-section-content-results{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .content_event .sp-section-content-details,
+    .content_event .sp-section-content-results{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+

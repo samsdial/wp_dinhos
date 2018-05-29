@@ -118,3 +118,33 @@ function tournamentFedeVal() {
     register_post_type( 'tournamentFedeVal' , $args );
     flush_rewrite_rules();
 }
+// Torneo maracana
+add_action('init', 'maracana');
+function maracana() {
+    $labels = array(
+        'name' => __( 'Torneo Maracaná' ),
+        'singular_name' => __( 'Torneo Maracaná' ),
+        'add_new' => __( 'Añadir Nuevo' ),
+        'add_new_item' => __( 'Añadir Categoria Torneo Maracaná' ),
+        'edit_item' => __( 'Editar Torneo Maracaná' ),
+        'new_item' => __( 'Nueva Torneo Maracaná'),
+        'view_item' => __( 'Ver Producto'),
+        'search_items' => __( 'Buscar Producto'),
+        'not_found' =>  __('No se encontró nada'),
+        'not_found_in_trash' => __('No se encontró nada en la papelera'),
+        'parent_item_colon' => ''
+    );
+    $args = array(
+        'labels' => $labels,
+        'menu_icon' => 'dashicons-admin-generic',
+        'public' => true,
+        'rewrite' => array( 'slug' => 'torneo_maracana' ),
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'menu_position' => null,
+        'taxonomies' => array( 'category' ),
+        'supports' => array('title','thumbnail')
+    );
+    register_post_type( 'maracana' , $args );
+    flush_rewrite_rules();
+}

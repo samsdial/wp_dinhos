@@ -74,7 +74,7 @@
                                                 <span class="icon icon-angle-down mr-2"></span>
                                                 <span><?php the_sub_field('title'); ?></span>
                                                 <span class="circle card bgc--silver cl--white">
-                                                    <span>vs</span>
+                                                    <span style="font-size: 21px">vs</span>
                                                 </span>
                                             </h5>
                                         </div>
@@ -94,7 +94,7 @@
                                                 <span class="icon icon-angle-down mr-2"></span>
                                                 <span><?php the_sub_field('title'); ?></span>
                                                 <span class="circle card bgc--silver cl--white">
-                                                    <span>vs</span>
+                                                    <span style="font-size: 21px">vs</span>
                                                 </span>
                                             </h5>
 
@@ -115,7 +115,7 @@
                                                 <span class="icon icon-angle-down mr-2"></span>
                                                 <span><?php the_sub_field('title'); ?></span>
                                                 <span class="circle card bgc--silver cl--white">
-                                                    <span>vs</span>
+                                                    <span style="font-size: 21px">vs</span>
                                                 </span>
                                             </h5>
                                         </div>
@@ -135,7 +135,7 @@
                                                 <span class="icon icon-angle-down mr-2"></span>
                                                 <span><?php the_sub_field('title'); ?></span>
                                                 <span class="circle card bgc--silver cl--white">
-                                                    <span>vs</span>
+                                                    <span style="font-size: 21px">vs</span>
                                                 </span>
                                             </h5>
                                         </div>
@@ -162,7 +162,7 @@
             </div>
         </div>
     </section>
-    <section class="breadcrumb container pd_bottom--x10">
+    <section class="breadcrumb container pd_bottom--x10 hidden">
         <ul class="list_breadcrumb list--inline txt_upper">
             <li><span class="cl--blue"><?php echo $_GET['type']; ?></span></li>
             <li><a href="/">Regresar <?php //echo get_field('raza'); ?></a></li>

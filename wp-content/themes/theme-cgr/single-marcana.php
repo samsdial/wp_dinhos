@@ -5,7 +5,7 @@
             <div class="box_intro--height d-table-cell align-bottom">
                 <div class="intro">
                     <div class="title bgc--white cl--silver d-block p-2 txt_size--em3">
-                        LFB
+                        Torneo Maracaná
                     </div>
                     <div class="subtitle bgc--black cl--white p-2 txt_size--em4">
                         <?php the_title(); ?>
